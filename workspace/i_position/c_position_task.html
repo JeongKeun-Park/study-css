@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>position 실습</title>
+        <style>
+            #back {
+                margin: 0 auto;
+                width: 500px;
+                height: 600px;
+                background-image: url(image/image.png);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                position: relative;
+            }
+            #image {
+                margin: 0 auto;
+                width: 220px;
+                height: 315px;
+                background-image: url("https://gangnam.koreaisacademy.com/2023/img/tch/teacher007.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                position: absolute;
+                top: 20%;
+                left: 30%;
+            }
+            #image div img {
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                right: 53%;
+                bottom: 55%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="back">
+            <div id="image">
+                <div><img src="image/흰수염.jpg" alt="" /></div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>float 실습</title>
+        <style>
+            #body {
+                width: 960px;
+                /* width: 50%; */
+                height: 232.38px;
+                margin: 0 auto;
+                /* display: flex;
+                justify-content: center;
+                float 랑 flex는 같이 사용하지 않는다. */
+            }
+            .jpg1 {
+                width: 320px;
+                height: 232.38px;
+                float: left;
+            }
+            .jpg1 img {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="body">
+            <div class="jpg1">
+                <img src="./images/img1.jpg" alt="" />
+            </div>
+            <div class="jpg1">
+                <img src="./images/img2.jpg" alt="" />
+            </div>
+            <div class="jpg1">
+                <img src="./images/img3.jpg" alt="" />
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<!-- 네이버 폰트에서 1개 가져와 적용하기 -->
+<!-- 서비스 되고 있는 사이트의 폰트를 찾아서 적용하기 -->
+
+<!-- 폰트를 우선 찾고나서 -->
+<!-- 1. 기본 폰트인지 확인하기 -->
+<!-- 2. 개발자 모드에서 Element(요소)탭 혹은 Network탭에서 검색 -->
+<!-- 3. 적용이 도저히 안되고 못찾겠다면, 직접 검색해서 폰트 다운로드 하기 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>폰트 적용 실습</title>
+        <style>
+            @font-face {
+                font-family: "네이버";
+                src: url(fonts/NanumGgocNaeEum.ttf) format(truetype);
+            }
+            @font-face {
+                font-family: "영화관";
+                src: url(fonts/NotoSansKR-Regular.otf) format(opentype);
+            }
+            body {
+                /* display: flex;
+                align-items: center;
+                justify-content: center; */
+            }
+            h1 {
+                font-family: "네이버";
+            }
+            div {
+                width: 200px;
+                height: 50px;
+                background-color: black;
+                /* display: flex;
+                align-items: center;
+                justify-content: center; */
+            }
+            h2 {
+                font-family: "영화관";
+                color: #fff;
+                font-size: 14px;
+                text-align: center;
+                line-height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>네이버폰트</h1>
+        <div><h2>타사이트폰트</h2></div>
+    </body>
+</html>

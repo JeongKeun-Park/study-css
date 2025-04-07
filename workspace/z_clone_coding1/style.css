@@ -1,0 +1,359 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: sans-seri;
+    margin: 0;
+    min-width: 320px;
+    height: 100dvh;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #fff;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    font-size: 16px;
+    line-height: 1.5px;
+}
+
+.joy-xaugol {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: var(--Icon-margin);
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: var(--Icon-fontSize, var(--joy-fontSize-xl2));
+    color: var(--Icon-color, var(--joy-palette-text-icon));
+    width: 127.99992px;
+    height: 24px;
+    color: #000;
+}
+.joy-orlzs5 {
+    flex-direction: column;
+}
+
+.joy-1cig87j {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.joy-c6ucx3 {
+    --Icon-margin: initial;
+    --CircularProgress-size: 20px;
+    --CircularProgress-thickness: 2px;
+    --Button-gap: 0.5rem;
+    padding-inline: 1rem;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    --variant-borderWidth: 0px;
+    color: var(--variant-plainColor, var(--joy-palette-neutral-plainColor, #141415));
+    font-weight: 500;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    min-height: 0;
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px;
+    min-width: 60px;
+}
+
+.joy-vuq3nb {
+    height: 64px;
+    padding: 12px 24px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1144px;
+}
+
+.joy-p9u31v {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: #F5F5F7;
+    width: 1920px;
+    height: 65px;
+}
+
+.joy-nr5emt {
+    gap: 100px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.joy-1y7c6b7 {
+    --Icon-fontSize: calc(1em* 1.25);
+    margin: var(--Typography-margin, 0px);
+    display: block;
+    color: #141415;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.joy-52bfsz {
+    --Icon-fontSize: 24px;
+    margin: 0;
+    display: inline-block;
+    fill: currentColor;
+    flex-shrink: 0;
+    font-size: 24px;
+    width: 1em;
+    height: 1em;
+    color: #141415; 
+}
+
+.joy-1x4i5yh . MuiButton-startDecorator{
+    margin-right: 0px;
+}
+
+.joy-zcktug {
+    display: inherit;
+    --icon-margin : 0 0 0 calc(0.5rem / -2);
+}
+
+.joy-1x4i5yh {
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    color: #141415;
+    background-color: #F5F5F7;
+    font-weight: 500;
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    gap: 6px;
+    font-family: sans-seri;
+}
+
+.joy-1hdbc19 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.joy-1v8my8o {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: light-sans;
+    font-size: 16px;
+}
+
+.joy-bco1gb {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.joy-o9hh3a {
+    height: 16px;
+}
+
+.joy-1scpo6r{
+    font-size: 15px;
+    position: relative;
+    line-height: 0.88rem;
+    color: #141415;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    /* -webkit-box-align: center; */
+}
+
+.joy-160blma    {
+    box-sizing: border-box;
+    border-radius: min(6px, 0.25rem);
+    width: 0.88rem;
+    height: 0.88rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #141415;
+    border: 1px solid;
+    border-color: #d8d8da;
+    background-color: #ffffff;
+}
+
+.joy-160blma:hover
+
+.joy-kit57i {
+ position: absolute;   
+ text-align: left;
+ z-index: 1;
+ border-radius: inherit;
+ top: 0px;
+ left: 0px;
+ bottom: 0px;
+ right: 0px;
+
+}
+
+.joy-1jj0cvj {
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.joy-1fjtzvx >label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.joy-1fjtzvx {
+flex: 1;
+min-width: 0;
+}
+
+.joy-oh5lf6 {
+    --Divider-thickness: 1px;
+    --Divider-lineColor : #f5f5f7;
+    position: relative;
+    align-self: stretch;
+    border: none;
+    block-size: 1px;
+    background-color: #eaeaec;
+    margin: initial;
+}
+
+.joy-1j6tmez {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.joy-uj80m7 {
+    display: block;
+    color: #6e6e73;
+    text-decoration: none;
+}
+
+.joy-irdlue {
+    display: block;
+    color: #6e6e73;
+}
+
+.joy-1gx7dcl {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e6e73;
+}
+
+.joy-16ju9y6 {
+    display: inline;
+    font-size: inherit;
+    color: #6e6e73;
+}
+
+.joy-6r2fzw {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.joy-1c04f01 {
+    max-width: 320px;
+    width: 100%;
+}
+
+.joy-yd5exj {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+}

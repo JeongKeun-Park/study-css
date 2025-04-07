@@ -1,0 +1,1055 @@
+::selection {
+    background-color: #b3d4fc;
+    color: #000000;
+    text-shadow: none;
+}
+
+*, ::before, ::after {
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+
+::before, ::after {
+    text-decoration: inherit;
+    vertical-align: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    cursor: default;
+    font-family: sans-serif;
+    line-height: 1.5;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body.fontLoaded{
+    font-family: SUIT;
+}
+
+html, body {
+    width: 100%;
+    font-size: 14px;
+    color: black;
+    word-break: normal;
+    overflow-wrap: break-word;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    outline: none;
+    font-family: inherit;
+}
+
+.hKZUBk {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 88px;
+    padding: 48px 0px 16px;
+    background-color: rgb(2, 74, 149);
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    z-index: 4000;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: top 100ms linear;
+}
+
+.boEfOZ {
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    z-index: 4000;
+    bottom: 34px;
+}
+
+.eskQgv {
+    display: flex
+;
+    flex-flow: column;
+    align-content: flex-start;
+    margin: 0px auto;
+    max-width: 808px;
+    width: 100%;
+    padding: 0px 20px;
+    min-height: 1px;
+}
+
+p, label {
+    margin: 0px;
+}
+
+b, strong {
+    font-weight: inherit;
+}
+
+b, strong {
+    font-weight: bolder;
+}
+
+button, input, select, textarea {
+    background-color: transparent;
+    border-style: none;
+    color: inherit;
+    font-size: 1em;
+    margin: 0;
+}
+
+button, input {
+    overflow: visible;
+}
+
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+a {
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+}
+
+a, area, button, input, label, select, textarea, [tabindex] {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+
+.dPJHWR {
+    width: 100%;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    z-index: 300;
+}
+
+#app {
+    background-color: white;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.idXWQn {
+    position: relative;
+    display: flex
+;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+.lkrzmV {
+    display: flex
+;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 32px;
+    background-color: rgb(244, 244, 244);
+}
+
+.fWxgMt {
+    display: flex
+;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 768px;
+    width: 100%;
+    padding: 6px 20px;
+}
+
+.dlTKtS {
+    display: flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.jfPgNj {
+    min-height: 1px;
+}
+
+.lQqkn {
+    min-height: 1px;
+}
+
+.dlTKtS a {
+    margin-left: 20px;
+}
+
+.dlTKtS a:first-child {
+    margin-left: 0px;
+}
+
+.kgHgrk {
+    color: rgb(119, 119, 119);
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: -0.3px;
+}
+
+.fSnloG {
+    display: flex
+;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.uogLa {
+    position: relative;
+    display: flex
+;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    max-width: 768px;
+    width: 100%;
+    padding: 22px 20px 8px;
+}
+
+.hgyAtx {
+    display: flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fqlSHx {
+    width: 48px;
+    height: 51px;
+}
+
+.bXkqmJ {
+    display: flex
+;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 34px;
+}
+
+.hqQfQn {
+    display: block;
+    margin-top: 3px;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: rgb(170, 170, 170);
+}
+
+.kFGPiX {
+    width: 1px;
+    height: 38px;
+    background-color: rgb(238, 238, 238);
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.dtUwHg {
+    margin: 17px 0px 17px 20px;
+    width: 68px;
+    height: 24px;
+}
+
+.LAoZM {
+    height: 38px;
+    padding: 0px 14px;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+}
+
+.nfXAO {
+    width: 100%;
+}
+
+.hOZOpG {
+    position: relative;
+    display: flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 38px;
+    padding: 0px 12px;
+    border-radius: 19px;
+    background-color: rgb(244, 244, 244);
+    border: none;
+}
+
+.kKRRUP {
+    margin-right: 5px;
+    user-select: none;
+}
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+.KfNMI {
+    width: 100%;
+    color: rgb(51, 51, 51);
+    height: 24px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.kiAeGP {
+    display: flex
+;
+    width: 168px;
+}
+
+.bScXKt {
+    display: flex
+;
+    flex-flow: column;
+    align-content: flex-start;
+    margin: 0px auto;
+    max-width: 808px;
+    width: 100%;
+    padding: 0px 20px;
+    min-height: 1px;
+}
+
+.KOZEV {
+    padding: 0px 42px;
+}
+
+.cqeeCQ {
+    margin: 24px 0px 16px;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.koasSX {
+    width: auto;
+    height: auto;
+    transition: opacity 200ms ease-in-out;
+    display: none;
+    opacity: 0;
+    min-width: 0px;
+    min-height: 1px;
+}
+
+.hWBKQy {
+    display: grid
+;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    justify-items: center;
+}
+
+.gePshk {
+    width: 100%;
+}
+
+.hWBKQy > * {
+    display: table;
+}
+
+.hWBKQy > :nth-child(1) {
+}
+
+.dXlPAQ {
+    display: flex
+;
+    align-items: flex-end;
+    height: 77px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/category-outdoor_gch4e1);
+    background-color: rgb(244, 244, 244);
+    background-size: cover;
+    color:  white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    position: relative;
+}
+
+.dXlPAQ > span {
+    z-index: 1;
+}
+
+.lkwiLY > span {
+    z-index: 1;
+}
+
+.iegeRK > span {
+    z-index: 1;
+}
+
+.hgfmjb > span {
+    z-index: 1;
+}
+
+.hEnfLr > span {
+    z-index: 1;
+}
+
+.dGCeTF > span {
+    z-index: 1;
+}
+
+.bLLzaC > span {
+    z-index: 1;
+}
+
+.hFOVnP > span {
+    z-index: 1;
+}
+
+.bpRTcI > span {
+    z-index: 1;
+}
+
+.hTuvqw > span {
+    z-index: 1;
+}
+
+.dAUiGg > span {
+    z-index: 1;
+}
+
+.jJKEce > span {
+    z-index: 1;
+}
+
+.btOZVC > span {
+    z-index: 1;
+}
+
+.gAnxLr > span {
+    z-index: 1;
+}
+
+.llpFiY > span {
+    z-index: 1;
+}
+
+.jiUEfU > span {
+    z-index: 1;
+}
+
+.ZBiQb > span {
+    z-index: 1;
+}
+
+.cRTQfI > span {
+    z-index: 1;
+}
+
+.dVWsbF {
+    opacity: 0.2;
+    background-color: rgb(17, 17, 17);
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.fjwRlv {
+    opacity: 0.2;
+    background-image: linear-gradient(to right, rgb(3, 0, 0), rgba(2, 0, 0, 0.52), rgba(0, 0, 0, 0));
+    width: 94px;
+    height: 100%;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.lkwiLY {
+    display: flex
+;
+    align-items: flex-end;
+    height: 77px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/category-fitness_j83hn7);
+    background-color: rgb(244, 244, 244);
+    background-size: cover;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    position: relative;
+}
+
+.iegeRK {
+    display: flex
+;
+    align-items: flex-end;
+    height: 77px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/category-beauty_rckkzc);
+    background-color: rgb(244, 244, 244);
+    background-size: cover;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    position: relative;
+}
+
+.hgfmjb {
+    display: flex
+;
+    align-items: flex-end;
+    height: 77px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/category-diy_racpb5);
+    background-color: rgb(244, 244, 244);
+    background-size: cover;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    position: relative;
+}
+
+.hEnfLr {
+    display: flex
+;
+    align-items: flex-end;
+    height: 77px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/category-sports_k9xead);
+    background-color: rgb(244, 244, 244);
+    background-size: cover;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    position: relative;
+}
+
+.dGCeTF {
+    display: flex
+;
+    align-items: flex-end;
+    height: 77px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/category-baking_ym1bmw);
+    background-color: rgb(244, 244, 244);
+    background-size: cover;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    position: relative;
+}
+
+.bLLzaC {
+    display: flex
+;
+    align-items: flex-end;
+    height: 77px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/category-culture_bvlt2h);
+    background-color: rgb(244, 244, 244);
+    background-size: cover;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    position: relative;
+}
+
+.hFOVnP {
+    display: flex
+;
+    align-items: flex-end;
+    height: 77px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/category-online_y7roxo);
+    background-color: rgb(244, 244, 244);
+    background-size: cover;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    position: relative;
+}
+    .bpRTcI {
+        display: flex
+    ;
+        align-items: flex-end;
+        height: 77px;
+        border-radius: 5px;
+        padding: 6px 10px;
+        background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/category-development_f4knbj);
+        background-color: rgb(244, 244, 244);
+        background-size: cover;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        position: relative;
+    }
+
+    .hTuvqw {
+        display: flex
+    ;
+        align-items: flex-end;
+        height: 77px;
+        border-radius: 5px;
+        padding: 6px 10px;
+        background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/category-social_l5ypkp);
+        background-color: rgb(244, 244, 244);
+        background-size: cover;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        position: relative;
+    }
+
+    .dAUiGg {
+        display: flex
+    ;
+        align-items: flex-end;
+        height: 77px;
+        border-radius: 5px;
+        padding: 6px 10px;
+        background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/category-store_ygtufv);
+        background-color: rgb(244, 244, 244);
+        background-size: cover;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        position: relative;
+    }
+
+    .jJKEce {
+        display: flex
+    ;
+        align-items: flex-end;
+        height: 77px;
+        border-radius: 5px;
+        padding: 6px 10px;
+        background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/%E1%84%89%E1%85%B5%E1%86%B7%E1%84%85%E1%85%B5%E1%84%89%E1%85%A1%E1%86%BC%E1%84%83%E1%85%A1%E1%86%B7_%E1%84%8F%E1%85%A1%E1%84%90%E1%85%A6%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5_781c3f80bc5405b62c376e5028924addc30b6a1277cc600245ba83d729d906fb);
+        background-color: rgb(244, 244, 244);
+        background-size: cover;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        position: relative;
+    }
+
+    .btOZVC {
+        display: flex
+    ;
+        align-items: flex-end;
+        height: 77px;
+        border-radius: 5px;
+        padding: 6px 10px;
+        background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/v1/categories/display_category_8_p);
+        background-color: rgb(244, 244, 244);
+        background-size: cover;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        position: relative;
+    }
+
+    .gAnxLr {
+        display: flex
+    ;
+        align-items: flex-end;
+        height: 77px;
+        border-radius: 5px;
+        padding: 6px 10px;
+        background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/v1/categories/display_category_14_p);
+        background-color: rgb(244, 244, 244);
+        background-size: cover;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        position: relative;
+    }
+
+    .llpFiY {
+        display: flex
+    ;
+        align-items: flex-end;
+        height: 77px;
+        border-radius: 5px;
+        padding: 6px 10px;
+        background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/v1/categories/display_category_13_p);
+        background-color: rgb(244, 244, 244);
+        background-size: cover;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        position: relative;
+    }
+
+    .jiUEfU {
+        display: flex
+    ;
+        align-items: flex-end;
+        height: 77px;
+        border-radius: 5px;
+        padding: 6px 10px;
+        background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/v1/categories/display_category_2_p);
+        background-color: rgb(244, 244, 244);
+        background-size: cover;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        position: relative;
+    }
+
+    .ZBiQb {
+        display: flex
+    ;
+        align-items: flex-end;
+        height: 77px;
+        border-radius: 5px;
+        padding: 6px 10px;
+        background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/v1/categories/display_category_18_p);
+        background-color: rgb(244, 244, 244);
+        background-size: cover;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        position: relative;
+    }
+
+    .cRTQfI {
+    display: flex
+;
+    align-items: flex-end;
+    height: 77px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-image: url(https://res.cloudinary.com/frientrip/image/upload/c_fill,dpr_2,f_auto,h_77,q_auto,w_162/v1/categories/display_category_17_p);
+    background-color: rgb(244, 244, 244);
+    background-size: cover;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    position: relative;
+}
+
+.kITUnH {
+    padding: 40px 20px 96px;
+    background-color: rgb(248, 248, 248);
+}
+
+.bgGVxX {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 768px;
+}
+
+.grCevx {
+    display: flex
+;
+    font-size: 15px;
+}
+
+.grCevx > * {
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -1px;
+    margin-right: 30px;
+}
+
+.grCevx > :last-child {
+    margin-right: 0px;
+}
+
+.gDzbrF {
+    display: flex
+;
+    flex-direction: column;
+}
+
+.gDzbrF:first-child {
+    margin-top: 30px;
+}
+
+.gDzbrF:not(:first-child) {
+    margin-top: 20px;
+}
+
+.eUqvVP {
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.eUoKnd {
+    display: flex
+;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 19px 0px 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.fdzxlp {
+    display: flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.hoMlpa {
+    display: block;
+    margin-right: 8px;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.bTVfk {
+    display: flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.hCWoSC {
+    width: 13px;
+    height: 13px;
+}
+
+.elYalm {
+    display: block;
+    margin-left: 2px;
+    color: rgb(51, 51, 51);
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+.kPaBVE {
+    margin-top: 20px;
+    border-top: 1px solid rgb(238, 238, 238);
+}
+
+.KoSNA {
+    color: rgb(119, 119, 119);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+}
+
+.KoSNA p:first-child {
+    margin-top: 20px;
+}
+.KoSNA p:not(:first-child) {
+    padding-top: 12px;
+}
+
+.jsCQNQ {
+    margin-top: 30px;
+    border-top: 1px solid rgb(238, 238, 238);
+    margin-bottom: 30px;
+}
+
+.hxycwH{
+    display: flex;
+}
+
+.hiaBQY {
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+.kDFfIu {
+    display: flex
+;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: -0.28px;
+    color: rgb(153, 153, 153);
+}
+
+.hvctRz {
+    display: inline-block;
+    padding: 0px 5px;
+    color: rgb(224, 224, 224);
+    font-size: 10px;
+    line-height: 1.54;
+}
+
+.kDFfIu span {
+    display: inline-block;
+    margin: 3px 0px;
+}
+
+.kDFfIu p {
+    line-height: 1.36;
+    margin-top: 5px;
+}
+
+.kDFfIu a{
+    font-weight: bold;
+}
+
+.fwZUwy {
+    display: flex
+;
+    margin: 20px 0px;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    line-height: 18px;
+}
+
+.fwZUwy > * {
+    padding-left: 6px;
+    padding-right: 6px;
+    border-right: 1px solid rgb(224, 224, 224);
+    white-space: nowrap;
+    line-height: 1;
+    letter-spacing: -0.33px;
+}
+
+.fwZUwy > :first-child {
+    padding-left: 0px;
+}
+
+.fwZUwy > :last-child {
+    padding-right: 0px;
+    border: none;
+}
+
+.gFIrzz {
+    display: flex
+;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    height: 45px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+}
+
+.lmqVHX {
+    width: 16px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.dDCKLJ {
+    display: flex
+;
+    margin-top: 20px;
+    color: rgb(155, 155, 155);
+    font-size: 9px;
+    line-height: 18px;
+}
+
+.jammDb {
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+}
+
+.jfPgNj {
+    min-height: 1px;
+}
+
+.jammDb > * {
+    margin-left: 20px;
+}
+
+.jammDb > :first-child {
+    margin-left: 0px;
+}
+
+.ibuPch {
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+}
+
+.ibuPch > * {
+    margin-left: 20px;
+}
+
+.ibuPch > :first-child {
+    margin-left: 20px;
+}
